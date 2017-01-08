@@ -1,0 +1,1371 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_mobilescreen.scss */
+.top-contacts {
+  background: #000000;
+}
+/* line 5, ../sass/_mobilescreen.scss */
+.top-contacts .head-contacts {
+  float: right;
+  padding: 1% 0;
+}
+/* line 9, ../sass/_mobilescreen.scss */
+.top-contacts .head-contacts p {
+  display: inline-block;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font: 400 0.5em/0.5em 'Montserrat', sans-serif;
+}
+/* line 16, ../sass/_mobilescreen.scss */
+.top-contacts .head-contacts a {
+  color: #727779;
+  text-transform: uppercase;
+  font: 400 0.5em/0.5em 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 4% 0;
+}
+/* line 23, ../sass/_mobilescreen.scss */
+.top-contacts .head-contacts a.email {
+  padding-right: 4%;
+  border-right: 0.1em solid gray;
+}
+
+/* line 31, ../sass/_mobilescreen.scss */
+.navigation {
+  margin-bottom: 0;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  padding: 0 6%;
+}
+/* line 38, ../sass/_mobilescreen.scss */
+.navigation .navigation-button {
+  margin: 5% 0 0 0;
+  border: none;
+}
+/* line 42, ../sass/_mobilescreen.scss */
+.navigation .navigation-button:focus, .navigation .navigation-button:hover {
+  margin: 5% 0 0 0;
+  border-radius: 0;
+  background: none;
+}
+/* line 49, ../sass/_mobilescreen.scss */
+.navigation .navbar-brand {
+  padding: 3%;
+  margin: 1% 0 4%;
+}
+
+/* line 55, ../sass/_mobilescreen.scss */
+.navigation-collapse {
+  border: none;
+}
+/* line 62, ../sass/_mobilescreen.scss */
+.navigation-collapse .menu-item li a {
+  text-transform: uppercase;
+  font: 300 1.1em/2.3em 'Montserrat';
+  color: #4e4e4e;
+}
+/* line 70, ../sass/_mobilescreen.scss */
+.navigation-collapse .menu-item li.opened-page a {
+  background: none;
+  color: #ffac55;
+  box-shadow: none;
+}
+
+/* line 80, ../sass/_mobilescreen.scss */
+.slider {
+  height: 85vh;
+  background: url("../img/layer-12.jpg") 53% no-repeat;
+  position: relative;
+}
+/* line 85, ../sass/_mobilescreen.scss */
+.slider .item.slide {
+  position: absolute;
+  bottom: 0;
+}
+/* line 90, ../sass/_mobilescreen.scss */
+.slider .carousel-control {
+  width: 5%;
+}
+/* line 93, ../sass/_mobilescreen.scss */
+.slider .carousel-control.left, .slider .carousel-control.right {
+  background-image: none;
+}
+/* line 98, ../sass/_mobilescreen.scss */
+.slider .left-arrow:before, .slider .right-arrow:before {
+  content: none;
+}
+/* line 102, ../sass/_mobilescreen.scss */
+.slider .right-arrow {
+  right: 0;
+  margin-right: 2%;
+}
+/* line 107, ../sass/_mobilescreen.scss */
+.slider .left-arrow {
+  left: 0;
+  margin-left: 2%;
+}
+/* line 112, ../sass/_mobilescreen.scss */
+.slider .fa-angle-left:before {
+  background: #000000;
+  padding: 30px 12px;
+  font-size: 1.3em;
+}
+/* line 118, ../sass/_mobilescreen.scss */
+.slider .fa-angle-right:before {
+  background: #000000;
+  padding: 30px 12px;
+  font-size: 1.3em;
+}
+/* line 126, ../sass/_mobilescreen.scss */
+.slider .industry .heading {
+  background: #ffac56;
+  padding: 4% 0 4% 6%;
+}
+/* line 131, ../sass/_mobilescreen.scss */
+.slider .industry .heading p {
+  font: 400 0.8em 'Montserrat';
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/* line 137, ../sass/_mobilescreen.scss */
+.slider .industry .heading p span {
+  display: block;
+  font: 400 0.6em 'Montserrat';
+  padding-bottom: 2%;
+}
+/* line 145, ../sass/_mobilescreen.scss */
+.slider .industry a {
+  color: #FFFFFF;
+  margin-left: 6%;
+  border: 0.1em solid #FFFFFF;
+  border-radius: 50%;
+  padding: 2% 4%;
+}
+/* line 154, ../sass/_mobilescreen.scss */
+.slider .industry .education {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  padding-left: 4%;
+}
+/* line 160, ../sass/_mobilescreen.scss */
+.slider .industry .education:hover {
+  background: #00a6d3;
+}
+/* line 164, ../sass/_mobilescreen.scss */
+.slider .industry .education p {
+  padding-top: 45%;
+  background: url("../img/icon-education.png") left top no-repeat;
+  text-transform: uppercase;
+  font: 400 0.5em 'Montserrat';
+  color: #FFFFFF;
+  margin: 14% 0;
+}
+/* line 174, ../sass/_mobilescreen.scss */
+.slider .industry .business {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  padding-left: 4%;
+}
+/* line 179, ../sass/_mobilescreen.scss */
+.slider .industry .business:hover {
+  background: #00a6d3;
+}
+/* line 183, ../sass/_mobilescreen.scss */
+.slider .industry .business p {
+  padding-top: 45%;
+  background: url("../img/icon-business.png") left top no-repeat;
+  text-transform: uppercase;
+  font: 400 0.5em 'Montserrat';
+  color: #FFFFFF;
+  margin: 14% 0;
+}
+/* line 193, ../sass/_mobilescreen.scss */
+.slider .industry .technology {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  padding-left: 4%;
+}
+/* line 198, ../sass/_mobilescreen.scss */
+.slider .industry .technology:hover {
+  background: #00a6d3;
+}
+/* line 202, ../sass/_mobilescreen.scss */
+.slider .industry .technology p {
+  padding-top: 45%;
+  background: url("../img/icon-technology.png") left top no-repeat;
+  text-transform: uppercase;
+  font: 400 0.5em 'Montserrat';
+  color: #FFFFFF;
+  margin: 14% 0;
+}
+/* line 212, ../sass/_mobilescreen.scss */
+.slider .industry .estate {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  padding-left: 4%;
+}
+/* line 217, ../sass/_mobilescreen.scss */
+.slider .industry .estate:hover {
+  background: #00a6d3;
+}
+/* line 221, ../sass/_mobilescreen.scss */
+.slider .industry .estate p {
+  padding-top: 45%;
+  background: url("../img/icon-real-estate.png") left top no-repeat;
+  text-transform: uppercase;
+  font: 400 0.5em 'Montserrat';
+  color: #FFFFFF;
+  margin: 14% 0;
+}
+/* line 231, ../sass/_mobilescreen.scss */
+.slider .industry .banking {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  padding-left: 4%;
+}
+/* line 236, ../sass/_mobilescreen.scss */
+.slider .industry .banking:hover {
+  background: #00a6d3;
+}
+/* line 240, ../sass/_mobilescreen.scss */
+.slider .industry .banking p {
+  padding-top: 45%;
+  background: url("../img/icon-banking.png") left top no-repeat;
+  text-transform: uppercase;
+  font: 400 0.5em 'Montserrat';
+  color: #FFFFFF;
+  margin: 14% 0;
+}
+/* line 250, ../sass/_mobilescreen.scss */
+.slider .industry .more {
+  border: 0.1em solid #00a6d3;
+  background: #03b6e7;
+  font: 400 0.8em/0.1em 'Montserrat';
+  padding: 16% 0;
+  text-align: center;
+}
+/* line 257, ../sass/_mobilescreen.scss */
+.slider .industry .more .view {
+  padding: 4% 8%;
+  background-color: #16d428;
+  border: none;
+  border-radius: 4em;
+  margin: 0;
+}
+/* line 266, ../sass/_mobilescreen.scss */
+.slider .industry .more a:hover {
+  text-decoration: none;
+}
+
+/* line 274, ../sass/_mobilescreen.scss */
+.about .content-about-us {
+  text-align: right;
+  padding: 7% 3%;
+}
+/* line 278, ../sass/_mobilescreen.scss */
+.about .content-about-us h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #343a3b;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+/* line 284, ../sass/_mobilescreen.scss */
+.about .content-about-us h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+}
+/* line 290, ../sass/_mobilescreen.scss */
+.about .content-about-us p {
+  font: 400 0.8em/1.6em 'Montserrat';
+  color: #838b8c;
+  margin-bottom: 8%;
+}
+/* line 296, ../sass/_mobilescreen.scss */
+.about .content-about-us a {
+  font: 400 1em 'Montserrat';
+  color: #FFFFFF;
+  padding: 3% 5%;
+  border-radius: 4em;
+  border: none;
+  background-color: #16d428;
+}
+/* line 304, ../sass/_mobilescreen.scss */
+.about .content-about-us a:hover {
+  text-decoration: none;
+}
+/* line 310, ../sass/_mobilescreen.scss */
+.about .images-about-us {
+  background: url("../img/about.jpg") 70% center;
+  min-height: 40vh;
+  position: relative;
+}
+/* line 315, ../sass/_mobilescreen.scss */
+.about .images-about-us .excellence {
+  position: absolute;
+  bottom: -40%;
+  right: 5%;
+  background-color: #03b6e7;
+  width: 60%;
+  border: 0.2em solid #FFFFFF;
+  padding: 5%;
+  text-align: center;
+}
+/* line 326, ../sass/_mobilescreen.scss */
+.about .images-about-us .excellence p {
+  color: #FFFFFF;
+  font: 400 0.6em 'Montserrat';
+  border: 0.1em solid #FFFFFF;
+  padding: 60% 3% 5%;
+  background: url("../img/badge-icon.png") center 0 no-repeat;
+}
+/* line 332, ../sass/_mobilescreen.scss */
+.about .images-about-us .excellence p span {
+  display: block;
+  font: 400 4.6em 'Montserrat';
+}
+
+/* line 341, ../sass/_mobilescreen.scss */
+.our-steps {
+  padding: 30% 5% 7%;
+  background: #e7eff1;
+}
+/* line 345, ../sass/_mobilescreen.scss */
+.our-steps h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #343a3b;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+/* line 351, ../sass/_mobilescreen.scss */
+.our-steps h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+}
+/* line 357, ../sass/_mobilescreen.scss */
+.our-steps ul {
+  padding-top: 10%;
+}
+/* line 360, ../sass/_mobilescreen.scss */
+.our-steps ul .first-step, .our-steps ul .second-step, .our-steps ul .third-step {
+  padding: 28% 0 15%;
+}
+/* line 364, ../sass/_mobilescreen.scss */
+.our-steps ul .first-step span, .our-steps ul .second-step span, .our-steps ul .third-step span {
+  color: #16d428;
+  font: 400 1em 'Montserrat';
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+/* line 371, ../sass/_mobilescreen.scss */
+.our-steps ul .first-step h4, .our-steps ul .second-step h4, .our-steps ul .third-step h4 {
+  color: #343a3b;
+  font: 700 1.2em 'Montserrat';
+  padding-bottom: 2%;
+}
+/* line 377, ../sass/_mobilescreen.scss */
+.our-steps ul .first-step p, .our-steps ul .second-step p, .our-steps ul .third-step p {
+  color: #838b8c;
+  font: 400 0.8em/1.6em 'Montserrat';
+}
+/* line 383, ../sass/_mobilescreen.scss */
+.our-steps ul .first-step {
+  background: url("../img/icon-choose-industary.png") 0 0 no-repeat;
+}
+/* line 387, ../sass/_mobilescreen.scss */
+.our-steps ul .second-step {
+  background: url("../img/icon-choose-service.png") 0 0 no-repeat;
+}
+/* line 391, ../sass/_mobilescreen.scss */
+.our-steps ul .third-step {
+  background: url("../img/icon-boost-your-business.png") 0 0 no-repeat;
+}
+
+/* line 397, ../sass/_mobilescreen.scss */
+.featured-projects {
+  padding: 7% 5%;
+}
+/* line 400, ../sass/_mobilescreen.scss */
+.featured-projects h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #343a3b;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+/* line 406, ../sass/_mobilescreen.scss */
+.featured-projects h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+}
+/* line 412, ../sass/_mobilescreen.scss */
+.featured-projects .box {
+  overflow: hidden;
+  position: relative;
+  margin: 0 2%;
+  margin-bottom: 8%;
+}
+/* line 418, ../sass/_mobilescreen.scss */
+.featured-projects .box span {
+  position: absolute;
+}
+/* line 422, ../sass/_mobilescreen.scss */
+.featured-projects .box img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 427, ../sass/_mobilescreen.scss */
+.featured-projects .box .overlay {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #ffac56;
+  text-align: center;
+  -webkit-transition: opacity .5s ease;
+  padding: 0 5%;
+}
+/* line 439, ../sass/_mobilescreen.scss */
+.featured-projects .box .overlay .overlay-content {
+  margin-top: 10%;
+}
+/* line 442, ../sass/_mobilescreen.scss */
+.featured-projects .box .overlay .overlay-content h5 {
+  font: 400 0.8em 'Montserrat';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 3%;
+}
+/* line 449, ../sass/_mobilescreen.scss */
+.featured-projects .box .overlay .overlay-content p {
+  font: 400 0.6em 'Montserrat';
+  color: #FFFFFF;
+}
+/* line 456, ../sass/_mobilescreen.scss */
+.featured-projects .box:hover .overlay {
+  opacity: 1;
+}
+/* line 461, ../sass/_mobilescreen.scss */
+.featured-projects a {
+  font: 400 1em 'Montserrat';
+  color: #FFFFFF;
+  padding: 3% 5%;
+  border-radius: 4em;
+  border: none;
+  background-color: #16d428;
+}
+/* line 469, ../sass/_mobilescreen.scss */
+.featured-projects a:hover {
+  text-decoration: none;
+}
+
+/* line 475, ../sass/_mobilescreen.scss */
+.clients {
+  background: #03b6e7;
+  padding: 7% 5%;
+}
+/* line 479, ../sass/_mobilescreen.scss */
+.clients h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+/* line 485, ../sass/_mobilescreen.scss */
+.clients h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+}
+/* line 491, ../sass/_mobilescreen.scss */
+.clients p {
+  font: 400 0.8em/1.6em 'Montserrat';
+  color: #FFFFFF;
+}
+
+/* line 497, ../sass/_mobilescreen.scss */
+.blog {
+  background: #e7eff1 url("../img/blog.jpg") bottom no-repeat;
+  background-size: 100% auto;
+  padding: 7% 5% 70%;
+}
+/* line 502, ../sass/_mobilescreen.scss */
+.blog h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+/* line 508, ../sass/_mobilescreen.scss */
+.blog h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+  color: #898e8f;
+}
+/* line 515, ../sass/_mobilescreen.scss */
+.blog .all-posts {
+  font: 400 0.6em 'Montserrat';
+  color: #606668;
+  text-transform: uppercase;
+  padding: 2% 4%;
+  border: 0.3em solid #f3cda3;
+  border-radius: 4em;
+}
+/* line 524, ../sass/_mobilescreen.scss */
+.blog .top-posts {
+  font: 400 0.6em 'Montserrat';
+  color: #606668;
+  text-transform: uppercase;
+  padding: 2% 4%;
+  border: 0.3em solid #bfc7c8;
+  border-radius: 4em;
+}
+/* line 535, ../sass/_mobilescreen.scss */
+.blog ul li {
+  padding-bottom: 10%;
+}
+/* line 538, ../sass/_mobilescreen.scss */
+.blog ul li span {
+  font: 400 0.8em 'Montserrat';
+}
+/* line 542, ../sass/_mobilescreen.scss */
+.blog ul li h6 {
+  padding: 2% 0 4%;
+  font: 700 1em 'Montserrat';
+  text-transform: uppercase;
+  color: #343a3b;
+}
+/* line 549, ../sass/_mobilescreen.scss */
+.blog ul li p {
+  color: #838b8c;
+  font: 400 0.6em/1.8em 'Montserrat';
+}
+
+/* line 557, ../sass/_mobilescreen.scss */
+.contacts {
+  padding: 7% 5%;
+}
+/* line 560, ../sass/_mobilescreen.scss */
+.contacts h2 {
+  font: 700 2.2em 'Montserrat';
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+/* line 566, ../sass/_mobilescreen.scss */
+.contacts h2 span {
+  display: block;
+  font: 400 0.4em 'Montserrat';
+  color: #898e8f;
+}
+/* line 573, ../sass/_mobilescreen.scss */
+.contacts ul {
+  padding: 5% 0;
+}
+/* line 575, ../sass/_mobilescreen.scss */
+.contacts ul li {
+  padding: 10% 0 10% 30%;
+  margin-bottom: 5%;
+  border: 0.1em solid #f0f4f5;
+}
+/* line 580, ../sass/_mobilescreen.scss */
+.contacts ul li h6 {
+  color: #343a3b;
+  font: 700 1em 'Montserrat';
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+/* line 587, ../sass/_mobilescreen.scss */
+.contacts ul li a {
+  color: #343a3b;
+  font: 400 0.8em 'Montserrat';
+}
+/* line 593, ../sass/_mobilescreen.scss */
+.contacts ul .email {
+  background: url("../img/icon-email.png") 6% 50% no-repeat;
+}
+/* line 597, ../sass/_mobilescreen.scss */
+.contacts ul .phone {
+  background: url("../img/icon-call.png") 6% 50% no-repeat;
+}
+/* line 601, ../sass/_mobilescreen.scss */
+.contacts ul .career {
+  background: url("../img/icon-career.png") 6% 50% no-repeat;
+}
+
+/* line 607, ../sass/_mobilescreen.scss */
+.footer {
+  padding: 7% 5%;
+  background: #262829;
+}
+/* line 611, ../sass/_mobilescreen.scss */
+.footer h5 {
+  color: #e1e1e1;
+  font: 700 1em 'Montserrat';
+  text-transform: uppercase;
+  margin: 7% 0 5%;
+}
+/* line 618, ../sass/_mobilescreen.scss */
+.footer .newsletter {
+  padding-bottom: 5%;
+}
+/* line 621, ../sass/_mobilescreen.scss */
+.footer .newsletter p {
+  color: #838b8c;
+  font: 400 0.8em/1.4em 'Montserrat';
+}
+/* line 626, ../sass/_mobilescreen.scss */
+.footer .newsletter #mc_embed_signup {
+  padding: 5% 0;
+}
+/* line 629, ../sass/_mobilescreen.scss */
+.footer .newsletter #mc_embed_signup .email {
+  width: 60%;
+  border: none;
+  background: #323334;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 4em;
+  padding: 3% 0 3% 6%;
+  font: 400 0.8em 'Montserrat';
+  color: #5e5e5e;
+  text-transform: uppercase;
+}
+/* line 641, ../sass/_mobilescreen.scss */
+.footer .newsletter #mc_embed_signup .email:focus {
+  border: none;
+}
+/* line 645, ../sass/_mobilescreen.scss */
+.footer .newsletter #mc_embed_signup .clear {
+  display: inline-block;
+  margin-left: -6%;
+}
+/* line 650, ../sass/_mobilescreen.scss */
+.footer .newsletter #mc_embed_signup .clear #mc-embedded-subscribe {
+  border: none;
+  background: #16d428;
+  border-radius: 4em;
+  font: 400 0.8em 'Montserrat';
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 8% 16%;
+}
+/* line 663, ../sass/_mobilescreen.scss */
+.footer li {
+  margin-bottom: 3%;
+}
+/* line 666, ../sass/_mobilescreen.scss */
+.footer li a {
+  font: 400 1em 'Montserrat';
+  color: #838b8c;
+  margin-bottom: 3%;
+}
+/* line 671, ../sass/_mobilescreen.scss */
+.footer li a:hover {
+  text-decoration: none;
+}
+/* line 677, ../sass/_mobilescreen.scss */
+.footer .copyright {
+  font: 400 0.6em 'Montserrat';
+  color: #838b8c;
+  border-top: 0.1em solid #2c2d2e;
+  padding-top: 3%;
+}
+
+@media (min-width: 768px) {
+  /* line 2, ../sass/_tabletscreen.scss */
+  .top-contacts {
+    background: #000000;
+  }
+  /* line 6, ../sass/_tabletscreen.scss */
+  .top-contacts .head-contacts {
+    float: right;
+    padding-top: 2%;
+  }
+  /* line 10, ../sass/_tabletscreen.scss */
+  .top-contacts .head-contacts p {
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font: 400 0.8em/0.5em 'Montserrat', sans-serif;
+  }
+  /* line 17, ../sass/_tabletscreen.scss */
+  .top-contacts .head-contacts a {
+    color: #727779;
+    text-transform: uppercase;
+    font: 400 0.8em/0.5em 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 4% 0;
+  }
+  /* line 24, ../sass/_tabletscreen.scss */
+  .top-contacts .head-contacts a.email {
+    padding-right: 4%;
+    border-right: 0.1em solid gray;
+  }
+
+  /* line 32, ../sass/_tabletscreen.scss */
+  .navigation {
+    margin-bottom: 0;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+  /* line 39, ../sass/_tabletscreen.scss */
+  .navigation .navigation-button {
+    margin: 5% 0 0 0;
+    border: none;
+  }
+  /* line 43, ../sass/_tabletscreen.scss */
+  .navigation .navigation-button:focus, .navigation .navigation-button:hover {
+    margin: 5% 0 0 0;
+    border-radius: 0;
+    background: none;
+  }
+  /* line 50, ../sass/_tabletscreen.scss */
+  .navigation .navbar-brand {
+    padding: 3% 0 3% 10%;
+    margin: 3% 0 4%;
+  }
+
+  /* line 56, ../sass/_tabletscreen.scss */
+  .navigation-collapse {
+    border: none;
+  }
+  /* line 63, ../sass/_tabletscreen.scss */
+  .navigation-collapse .menu-item li a {
+    text-transform: uppercase;
+    font: 300 0.8em/2.3em 'Montserrat';
+    color: #4e4e4e;
+  }
+  /* line 71, ../sass/_tabletscreen.scss */
+  .navigation-collapse .menu-item li.opened-page a {
+    background: none;
+    color: #ffac55;
+    box-shadow: none;
+  }
+
+  /* line 81, ../sass/_tabletscreen.scss */
+  .slider {
+    height: 85vh;
+    background: url("../img/layer-12.jpg") 53% no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  /* line 87, ../sass/_tabletscreen.scss */
+  .slider .item.slide {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 92, ../sass/_tabletscreen.scss */
+  .slider .carousel-control {
+    width: 5%;
+  }
+  /* line 95, ../sass/_tabletscreen.scss */
+  .slider .carousel-control.left, .slider .carousel-control.right {
+    background-image: none;
+  }
+  /* line 100, ../sass/_tabletscreen.scss */
+  .slider .left-arrow:before, .slider .right-arrow:before {
+    content: none;
+  }
+  /* line 104, ../sass/_tabletscreen.scss */
+  .slider .right-arrow {
+    right: 0;
+    margin-right: 18%;
+  }
+  /* line 109, ../sass/_tabletscreen.scss */
+  .slider .left-arrow {
+    left: 0;
+    margin-left: 2%;
+  }
+  /* line 114, ../sass/_tabletscreen.scss */
+  .slider .fa-angle-left:before {
+    background: #000000;
+    padding: 30px 12px;
+    font-size: 1.3em;
+  }
+  /* line 120, ../sass/_tabletscreen.scss */
+  .slider .fa-angle-right:before {
+    background: #000000;
+    padding: 30px 12px;
+    font-size: 1.3em;
+  }
+  /* line 128, ../sass/_tabletscreen.scss */
+  .slider .industry .heading {
+    background: #ffac56;
+    padding: 2% 0 2% 6%;
+  }
+  /* line 133, ../sass/_tabletscreen.scss */
+  .slider .industry .heading p {
+    font: 400 1.4em 'Montserrat';
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  /* line 139, ../sass/_tabletscreen.scss */
+  .slider .industry .heading p span {
+    display: block;
+    font: 400 0.6em 'Montserrat';
+    padding-bottom: 1%;
+  }
+  /* line 147, ../sass/_tabletscreen.scss */
+  .slider .industry a {
+    color: #FFFFFF;
+    margin-left: 6%;
+    border: 0.1em solid #FFFFFF;
+    border-radius: 50%;
+    padding: 3% 4% 2% 5%;
+  }
+  /* line 155, ../sass/_tabletscreen.scss */
+  .slider .industry .education, .slider .industry .business, .slider .industry .technology, .slider .industry .estate, .slider .industry .banking {
+    border: 0.1em solid #00a6d3;
+    background: #03b6e7;
+    padding-left: 4%;
+  }
+  /* line 160, ../sass/_tabletscreen.scss */
+  .slider .industry .education:hover, .slider .industry .business:hover, .slider .industry .technology:hover, .slider .industry .estate:hover, .slider .industry .banking:hover {
+    background: #00a6d3;
+  }
+  /* line 164, ../sass/_tabletscreen.scss */
+  .slider .industry .education p, .slider .industry .business p, .slider .industry .technology p, .slider .industry .estate p, .slider .industry .banking p {
+    padding-top: 20%;
+    text-transform: uppercase;
+    font: 400 1em 'Montserrat';
+    color: #FFFFFF;
+    margin: 14% 0;
+  }
+  /* line 176, ../sass/_tabletscreen.scss */
+  .slider .industry .education p {
+    background: url("../img/icon-education.png") left top no-repeat;
+  }
+  /* line 184, ../sass/_tabletscreen.scss */
+  .slider .industry .business p {
+    background: url("../img/icon-business.png") left top no-repeat;
+  }
+  /* line 191, ../sass/_tabletscreen.scss */
+  .slider .industry .technology p {
+    background: url("../img/icon-technology.png") left top no-repeat;
+  }
+  /* line 198, ../sass/_tabletscreen.scss */
+  .slider .industry .estate p {
+    background: url("../img/icon-real-estate.png") left top no-repeat;
+  }
+  /* line 205, ../sass/_tabletscreen.scss */
+  .slider .industry .banking p {
+    background: url("../img/icon-banking.png") left top no-repeat;
+  }
+  /* line 210, ../sass/_tabletscreen.scss */
+  .slider .industry .more {
+    border: 0.1em solid #00a6d3;
+    background: #03b6e7;
+    font: 400 1.4em/0.2em 'Montserrat';
+    padding: 12% 0 11%;
+    text-align: center;
+  }
+  /* line 217, ../sass/_tabletscreen.scss */
+  .slider .industry .more .view {
+    padding: 4% 8%;
+    background-color: #16d428;
+    border: none;
+    border-radius: 4em;
+    margin: 0;
+  }
+  /* line 226, ../sass/_tabletscreen.scss */
+  .slider .industry .more a:hover {
+    text-decoration: none;
+  }
+
+  /* line 234, ../sass/_tabletscreen.scss */
+  .about .content-about-us {
+    text-align: right;
+    padding: 7% 3%;
+  }
+  /* line 238, ../sass/_tabletscreen.scss */
+  .about .content-about-us h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #343a3b;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+  }
+  /* line 244, ../sass/_tabletscreen.scss */
+  .about .content-about-us h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+  }
+  /* line 250, ../sass/_tabletscreen.scss */
+  .about .content-about-us p {
+    font: 400 0.8em/1.6em 'Montserrat';
+    color: #838b8c;
+    margin-bottom: 8%;
+  }
+  /* line 256, ../sass/_tabletscreen.scss */
+  .about .content-about-us a {
+    font: 400 1em 'Montserrat';
+    color: #FFFFFF;
+    padding: 3% 5%;
+    border-radius: 4em;
+    border: none;
+    background-color: #16d428;
+  }
+  /* line 264, ../sass/_tabletscreen.scss */
+  .about .content-about-us a:hover {
+    text-decoration: none;
+  }
+  /* line 270, ../sass/_tabletscreen.scss */
+  .about .images-about-us {
+    background: url("../img/about.jpg") center no-repeat;
+    background-position-y: 50%;
+    min-height: 30vh;
+    position: relative;
+  }
+  /* line 276, ../sass/_tabletscreen.scss */
+  .about .images-about-us .excellence {
+    position: absolute;
+    bottom: -30%;
+    right: 10%;
+    background-color: #03b6e7;
+    width: 50%;
+    border: 0.2em solid #FFFFFF;
+    padding: 5%;
+    text-align: center;
+  }
+  /* line 287, ../sass/_tabletscreen.scss */
+  .about .images-about-us .excellence p {
+    color: #FFFFFF;
+    font: 400 0.8em 'Montserrat';
+    border: 0.1em solid #FFFFFF;
+    padding: 60% 3% 5%;
+    background: url("../img/badge-icon.png") center 0 no-repeat;
+  }
+  /* line 293, ../sass/_tabletscreen.scss */
+  .about .images-about-us .excellence p span {
+    display: block;
+    font: 400 4.6em 'Montserrat';
+  }
+
+  /* line 302, ../sass/_tabletscreen.scss */
+  .our-steps {
+    padding: 10% 5% 7%;
+    background: #e7eff1;
+  }
+  /* line 306, ../sass/_tabletscreen.scss */
+  .our-steps h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #343a3b;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+  }
+  /* line 312, ../sass/_tabletscreen.scss */
+  .our-steps h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+  }
+  /* line 318, ../sass/_tabletscreen.scss */
+  .our-steps ul {
+    padding-top: 0;
+  }
+  /* line 320, ../sass/_tabletscreen.scss */
+  .our-steps ul .first-step, .our-steps ul .second-step, .our-steps ul .third-step {
+    padding: 12% 0 0;
+    margin-right: 7%;
+  }
+  /* line 325, ../sass/_tabletscreen.scss */
+  .our-steps ul .first-step span, .our-steps ul .second-step span, .our-steps ul .third-step span {
+    color: #16d428;
+    font: 400 1em 'Montserrat';
+    text-transform: uppercase;
+  }
+  /* line 331, ../sass/_tabletscreen.scss */
+  .our-steps ul .first-step h4, .our-steps ul .second-step h4, .our-steps ul .third-step h4 {
+    color: #343a3b;
+    font: 700 1.2em 'Montserrat';
+    padding: 6% 0;
+  }
+  /* line 337, ../sass/_tabletscreen.scss */
+  .our-steps ul .first-step p, .our-steps ul .second-step p, .our-steps ul .third-step p {
+    color: #838b8c;
+    font: 400 0.8em/1.6em 'Montserrat';
+  }
+  /* line 343, ../sass/_tabletscreen.scss */
+  .our-steps ul .first-step {
+    background: url("../img/icon-choose-industary.png") 0 0 no-repeat;
+  }
+  /* line 347, ../sass/_tabletscreen.scss */
+  .our-steps ul .second-step {
+    background: url("../img/icon-choose-service.png") 0 0 no-repeat;
+  }
+  /* line 351, ../sass/_tabletscreen.scss */
+  .our-steps ul .third-step {
+    background: url("../img/icon-boost-your-business.png") 0 0 no-repeat;
+  }
+
+  /* line 357, ../sass/_tabletscreen.scss */
+  .featured-projects {
+    padding: 7% 2%;
+  }
+  /* line 360, ../sass/_tabletscreen.scss */
+  .featured-projects h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #343a3b;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    padding-left: 3%;
+  }
+  /* line 367, ../sass/_tabletscreen.scss */
+  .featured-projects h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+  }
+  /* line 373, ../sass/_tabletscreen.scss */
+  .featured-projects .box {
+    overflow: hidden;
+    position: relative;
+    margin: 0 2%;
+    margin-bottom: 12%;
+  }
+  /* line 379, ../sass/_tabletscreen.scss */
+  .featured-projects .box span {
+    position: absolute;
+  }
+  /* line 383, ../sass/_tabletscreen.scss */
+  .featured-projects .box img {
+    max-width: 100%;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    height: auto;
+  }
+  /* line 391, ../sass/_tabletscreen.scss */
+  .featured-projects .box .overlay {
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffac56;
+    text-align: center;
+    -webkit-transition: opacity .5s ease;
+    padding: 0 5%;
+  }
+  /* line 403, ../sass/_tabletscreen.scss */
+  .featured-projects .box .overlay .overlay-content {
+    margin-top: 10%;
+  }
+  /* line 406, ../sass/_tabletscreen.scss */
+  .featured-projects .box .overlay .overlay-content h5 {
+    font: 400 0.8em 'Montserrat';
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 3%;
+  }
+  /* line 413, ../sass/_tabletscreen.scss */
+  .featured-projects .box .overlay .overlay-content p {
+    font: 400 0.6em 'Montserrat';
+    color: #FFFFFF;
+  }
+  /* line 420, ../sass/_tabletscreen.scss */
+  .featured-projects .box:hover .overlay {
+    opacity: 1;
+  }
+  /* line 425, ../sass/_tabletscreen.scss */
+  .featured-projects a {
+    font: 400 1em 'Montserrat';
+    color: #FFFFFF;
+    padding: 3% 5%;
+    border-radius: 4em;
+    border: none;
+    background-color: #16d428;
+  }
+  /* line 433, ../sass/_tabletscreen.scss */
+  .featured-projects a:hover {
+    text-decoration: none;
+  }
+  /* line 438, ../sass/_tabletscreen.scss */
+  .featured-projects .full-projects {
+    text-align: center;
+  }
+
+  /* line 443, ../sass/_tabletscreen.scss */
+  .clients {
+    background: #03b6e7;
+    padding: 7% 5%;
+  }
+  /* line 447, ../sass/_tabletscreen.scss */
+  .clients h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+  }
+  /* line 453, ../sass/_tabletscreen.scss */
+  .clients h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+  }
+  /* line 459, ../sass/_tabletscreen.scss */
+  .clients p {
+    font: 400 0.8em/1.6em 'Montserrat';
+    color: #FFFFFF;
+  }
+
+  /* line 465, ../sass/_tabletscreen.scss */
+  .blog {
+    background: #e7eff1 url("../img/blog.jpg") right no-repeat;
+    background-size: auto 100%;
+    background-position-x: 23em;
+    padding: 0 0 5%;
+  }
+  /* line 471, ../sass/_tabletscreen.scss */
+  .blog h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #000000;
+    text-transform: uppercase;
+    margin: 2%  0 5% 4%;
+  }
+  /* line 477, ../sass/_tabletscreen.scss */
+  .blog h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+    color: #898e8f;
+  }
+  /* line 484, ../sass/_tabletscreen.scss */
+  .blog .blog-links {
+    margin: 0 0 5% 4%;
+  }
+  /* line 488, ../sass/_tabletscreen.scss */
+  .blog .all-posts {
+    font: 400 0.6em 'Montserrat';
+    color: #606668;
+    text-transform: uppercase;
+    padding: 2%;
+    border: 0.3em solid #f3cda3;
+    border-radius: 4em;
+  }
+  /* line 497, ../sass/_tabletscreen.scss */
+  .blog .top-posts {
+    font: 400 0.6em 'Montserrat';
+    color: #606668;
+    text-transform: uppercase;
+    padding: 2%;
+    border: 0.3em solid #bfc7c8;
+    border-radius: 4em;
+  }
+  /* line 508, ../sass/_tabletscreen.scss */
+  .blog ul li {
+    padding-bottom: 10%;
+  }
+  /* line 511, ../sass/_tabletscreen.scss */
+  .blog ul li span {
+    font: 400 0.8em 'Montserrat';
+  }
+  /* line 515, ../sass/_tabletscreen.scss */
+  .blog ul li h6 {
+    padding: 2% 0 4%;
+    font: 700 1em 'Montserrat';
+    text-transform: uppercase;
+    color: #343a3b;
+  }
+  /* line 522, ../sass/_tabletscreen.scss */
+  .blog ul li p {
+    color: #838b8c;
+    font: 400 0.8em/1.8em 'Montserrat';
+  }
+
+  /* line 530, ../sass/_tabletscreen.scss */
+  .contacts {
+    padding: 7% 5%;
+  }
+  /* line 533, ../sass/_tabletscreen.scss */
+  .contacts h2 {
+    font: 700 2.2em 'Montserrat';
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+  }
+  /* line 539, ../sass/_tabletscreen.scss */
+  .contacts h2 span {
+    display: block;
+    font: 400 0.4em 'Montserrat';
+    color: #898e8f;
+  }
+  /* line 546, ../sass/_tabletscreen.scss */
+  .contacts ul {
+    padding: 3% 0;
+  }
+  /* line 548, ../sass/_tabletscreen.scss */
+  .contacts ul li {
+    padding: 4% 0 4% 18%;
+    margin-bottom: 5%;
+    border: 0.1em solid #f0f4f5;
+  }
+  /* line 553, ../sass/_tabletscreen.scss */
+  .contacts ul li h6 {
+    color: #343a3b;
+    font: 700 1.6em 'Montserrat';
+    text-transform: uppercase;
+    margin-bottom: 2%;
+  }
+  /* line 560, ../sass/_tabletscreen.scss */
+  .contacts ul li a {
+    color: #343a3b;
+    font: 400 1.2em 'Montserrat';
+  }
+  /* line 566, ../sass/_tabletscreen.scss */
+  .contacts ul .email {
+    background: url("../img/icon-email.png") 6% 50% no-repeat;
+  }
+  /* line 570, ../sass/_tabletscreen.scss */
+  .contacts ul .phone {
+    background: url("../img/icon-call.png") 6% 50% no-repeat;
+  }
+  /* line 574, ../sass/_tabletscreen.scss */
+  .contacts ul .career {
+    background: url("../img/icon-career.png") 6% 50% no-repeat;
+  }
+
+  /* line 580, ../sass/_tabletscreen.scss */
+  .footer {
+    padding: 4% 5%;
+    background: #262829;
+  }
+  /* line 584, ../sass/_tabletscreen.scss */
+  .footer h5 {
+    color: #e1e1e1;
+    font: 700 1em 'Montserrat';
+    text-transform: uppercase;
+    margin: 0 0 5% 2%;
+  }
+  /* line 591, ../sass/_tabletscreen.scss */
+  .footer .newsletter {
+    padding-bottom: 5%;
+  }
+  /* line 594, ../sass/_tabletscreen.scss */
+  .footer .newsletter .subscribe-text {
+    color: #838b8c;
+    font: 400 1em/1.4em 'Montserrat';
+    margin-bottom: 5%;
+  }
+  /* line 600, ../sass/_tabletscreen.scss */
+  .footer .newsletter #mc_embed_signup {
+    padding: 5% 0;
+  }
+  /* line 603, ../sass/_tabletscreen.scss */
+  .footer .newsletter #mc_embed_signup .email {
+    width: 60%;
+    border: none;
+    background: #323334;
+    border-top-left-radius: 4em;
+    border-bottom-left-radius: 4em;
+    padding: 3% 0 3% 6%;
+    font: 400 1em 'Montserrat';
+    color: #5e5e5e;
+    text-transform: uppercase;
+  }
+  /* line 615, ../sass/_tabletscreen.scss */
+  .footer .newsletter #mc_embed_signup .email:focus {
+    border: none;
+  }
+  /* line 619, ../sass/_tabletscreen.scss */
+  .footer .newsletter #mc_embed_signup .clear {
+    display: inline-block;
+    margin-left: -6%;
+  }
+  /* line 624, ../sass/_tabletscreen.scss */
+  .footer .newsletter #mc_embed_signup .clear #mc-embedded-subscribe {
+    border: none;
+    background: #16d428;
+    border-radius: 4em;
+    font: 400 1.2em 'Montserrat';
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 9% 24% 10%;
+  }
+  /* line 637, ../sass/_tabletscreen.scss */
+  .footer li {
+    margin-bottom: 3%;
+  }
+  /* line 640, ../sass/_tabletscreen.scss */
+  .footer li a {
+    font: 400 1em 'Montserrat';
+    color: #838b8c;
+    margin-bottom: 3%;
+  }
+  /* line 645, ../sass/_tabletscreen.scss */
+  .footer li a:hover {
+    text-decoration: none;
+  }
+  /* line 651, ../sass/_tabletscreen.scss */
+  .footer .copyright {
+    font: 400 0.6em 'Montserrat';
+    color: #838b8c;
+    border-top: 0.1em solid #2c2d2e;
+    padding-top: 3%;
+  }
+}
