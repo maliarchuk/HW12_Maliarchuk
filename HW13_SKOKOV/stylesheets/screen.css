@@ -1,0 +1,1737 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_mobilescreen.scss */
+.navigation {
+  min-height: 20%;
+  padding-top: 10%;
+  margin-bottom: 0;
+  text-align: center;
+  background: #f6f6f6;
+  box-shadow: none;
+  border: none;
+}
+/* line 10, ../sass/_mobilescreen.scss */
+.navigation .navigation-header {
+  margin-bottom: 18%;
+}
+/* line 13, ../sass/_mobilescreen.scss */
+.navigation .navigation-header .navigation-button {
+  margin-top: 5%;
+  border: none;
+}
+/* line 17, ../sass/_mobilescreen.scss */
+.navigation .navigation-header .navigation-button:focus, .navigation .navigation-header .navigation-button:hover {
+  margin-top: 5%;
+  border-radius: 0;
+  background: none;
+}
+/* line 24, ../sass/_mobilescreen.scss */
+.navigation .navigation-header h1 {
+  display: inline-block;
+  margin: -40% 0 0 15%;
+}
+/* line 28, ../sass/_mobilescreen.scss */
+.navigation .navigation-header h1 a {
+  padding: 15% 0 0;
+}
+
+/* line 35, ../sass/_mobilescreen.scss */
+.navigation-collapse {
+  border: none;
+}
+/* line 40, ../sass/_mobilescreen.scss */
+.navigation-collapse .menu-item li {
+  margin: 0 15% 5%;
+}
+/* line 43, ../sass/_mobilescreen.scss */
+.navigation-collapse .menu-item li a {
+  text-transform: uppercase;
+  font: 300 1.2em/2.3em 'Source Code Pro', monospace;
+  color: #000000;
+}
+/* line 50, ../sass/_mobilescreen.scss */
+.navigation-collapse .menu-item li.opened-page a {
+  background: #ffeb00;
+  box-shadow: none;
+  color: #000000;
+}
+
+/* line 60, ../sass/_mobilescreen.scss */
+.banner {
+  background: url("../img/slider-bg.jpg");
+  width: 100%;
+  padding: 6% 0 6% 7%;
+}
+/* line 65, ../sass/_mobilescreen.scss */
+.banner h2 {
+  display: inline-block;
+  font: 400 1.8em/1.4em "Century Gothic";
+  text-transform: uppercase;
+  color: #ffea00;
+  background: #403f44;
+  padding: 2% 10% 2% 2%;
+  margin: 0;
+}
+
+/* line 76, ../sass/_mobilescreen.scss */
+.contact-info {
+  background: #f6f6f6;
+}
+/* line 79, ../sass/_mobilescreen.scss */
+.contact-info h4 {
+  display: inline-block;
+  color: #ffea00;
+  font: 400 1em "Century Gothic";
+  text-transform: uppercase;
+  background: #424147;
+  padding: 1% 4%;
+  margin-bottom: 4%;
+}
+/* line 89, ../sass/_mobilescreen.scss */
+.contact-info #map {
+  height: 80vh;
+  background: #f6f6f6;
+  margin: 10% 0;
+}
+/* line 95, ../sass/_mobilescreen.scss */
+.contact-info .contact-form {
+  margin-bottom: 20%;
+}
+/* line 98, ../sass/_mobilescreen.scss */
+.contact-info .contact-form li {
+  padding: 0;
+}
+/* line 101, ../sass/_mobilescreen.scss */
+.contact-info .contact-form li .field {
+  width: 100%;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: none;
+  color: #424147;
+  font: 400 0.8em "Century Gothic";
+  padding: 1% 2%;
+}
+/* line 113, ../sass/_mobilescreen.scss */
+.contact-info .contact-form .submit {
+  color: #ffffff;
+  font: 400 0.8em "Century Gothic";
+  background: #000000;
+  border: none;
+  border-radius: none;
+  border-bottom: 0.1em solid #f6e300;
+  padding: 1% 2%;
+}
+/* line 124, ../sass/_mobilescreen.scss */
+.contact-info .contacts {
+  padding-bottom: 10%;
+}
+/* line 127, ../sass/_mobilescreen.scss */
+.contact-info .contacts .fa-map-marker, .contact-info .contacts .fa-whatsapp, .contact-info .contacts .fa-envelope {
+  text-align: center;
+  font-size: 0.4em;
+  color: #FFFFFF;
+  background: #000000;
+  width: 12%;
+  padding: 2% 0;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  margin-right: 4%;
+  float: left;
+}
+/* line 140, ../sass/_mobilescreen.scss */
+.contact-info .contacts .fa-map-marker {
+  margin-right: 4%;
+}
+/* line 144, ../sass/_mobilescreen.scss */
+.contact-info .contacts address {
+  font: 400 0.8em "Century Gothic";
+  color: #424147;
+  margin-bottom: 5%;
+}
+/* line 150, ../sass/_mobilescreen.scss */
+.contact-info .contacts .phone {
+  margin-bottom: 5%;
+}
+/* line 153, ../sass/_mobilescreen.scss */
+.contact-info .contacts .phone .phone-numbers {
+  overflow: hidden;
+}
+/* line 156, ../sass/_mobilescreen.scss */
+.contact-info .contacts .phone .phone-numbers p {
+  display: inline-block;
+  font: 400 0.8em "Century Gothic";
+  color: #424147;
+}
+/* line 162, ../sass/_mobilescreen.scss */
+.contact-info .contacts .phone .phone-numbers a {
+  display: block;
+  font: 400 0.8em "Century Gothic";
+  color: #424147;
+}
+/* line 170, ../sass/_mobilescreen.scss */
+.contact-info .contacts .subscribe {
+  text-align: left;
+}
+/* line 173, ../sass/_mobilescreen.scss */
+.contact-info .contacts .subscribe p {
+  display: block;
+  font: 400 0.8em "Century Gothic";
+  color: #424147;
+}
+/* line 179, ../sass/_mobilescreen.scss */
+.contact-info .contacts .subscribe a {
+  display: inline-block;
+  font: 400 0.8em "Century Gothic";
+  color: #f6e300;
+  background: #403f46;
+  overflow: hidden;
+}
+
+/* line 191, ../sass/_mobilescreen.scss */
+.footer {
+  background: #3f3f44;
+  padding: 5% 4% 0;
+}
+/* line 195, ../sass/_mobilescreen.scss */
+.footer h4 {
+  font: 400 1.4em "Century Gothic";
+  color: #FFFFFF;
+  margin-bottom: 7%;
+}
+/* line 201, ../sass/_mobilescreen.scss */
+.footer .about {
+  margin-bottom: 5%;
+}
+/* line 203, ../sass/_mobilescreen.scss */
+.footer .about p {
+  font: 400 0.8em/1.5em "Century Gothic";
+  color: #FFFFFF;
+  margin-bottom: 6%;
+}
+/* line 209, ../sass/_mobilescreen.scss */
+.footer .about a {
+  display: inline-block;
+  font: 400 1em "Century Gothic";
+  color: #FFFFFF;
+  background: #000000;
+  padding: 4% 8%;
+  margin-bottom: 5%;
+  border-bottom: 0.2em solid #c3b515;
+}
+/* line 219, ../sass/_mobilescreen.scss */
+.footer .about a:hover, .footer .about a:visited {
+  text-decoration: none;
+}
+/* line 223, ../sass/_mobilescreen.scss */
+.footer .about img {
+  width: 30%;
+}
+/* line 228, ../sass/_mobilescreen.scss */
+.footer .social-news {
+  margin-bottom: 7%;
+}
+/* line 234, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .fa-twitter {
+  color: #FFFFFF;
+  font-size: 2em;
+  float: left;
+  margin-right: 5%;
+}
+/* line 241, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .news-preview {
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+/* line 245, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .news-preview a {
+  font: 400 0.8em/1.3em "Century Gothic";
+  color: #FFFFFF;
+}
+/* line 249, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .news-preview a span {
+  color: #f9e602;
+}
+/* line 254, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .news-preview a:hover, .footer .social-news .latest-news li .news-preview a:visited {
+  text-decoration: none;
+}
+/* line 258, ../sass/_mobilescreen.scss */
+.footer .social-news .latest-news li .news-preview p {
+  margin-top: 5%;
+  font: 400 0.6em "Century Gothic";
+  color: #ffea00;
+}
+/* line 267, ../sass/_mobilescreen.scss */
+.footer .social-news .social {
+  margin-bottom: 7%;
+}
+/* line 270, ../sass/_mobilescreen.scss */
+.footer .social-news .social a {
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  color: #FFFFFF;
+  margin: 3% 3% 0;
+  background: #000000;
+  width: 16%;
+  padding: 4% 0;
+}
+/* line 284, ../sass/_mobilescreen.scss */
+.footer .contacts {
+  margin-bottom: 7%;
+}
+/* line 287, ../sass/_mobilescreen.scss */
+.footer .contacts .fa-map-marker, .footer .contacts .fa-whatsapp, .footer .contacts .fa-envelope {
+  text-align: center;
+  font-size: 0.4em;
+  color: #FFFFFF;
+  background: #000000;
+  width: 16%;
+  padding: 3% 0;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  margin-right: 4%;
+  float: left;
+}
+/* line 300, ../sass/_mobilescreen.scss */
+.footer .contacts .fa-map-marker {
+  margin-right: 4%;
+}
+/* line 304, ../sass/_mobilescreen.scss */
+.footer .contacts address {
+  font: 400 0.8em "Century Gothic";
+  color: #FFFFFF;
+  overflow: hidden;
+  margin-bottom: 10%;
+}
+/* line 311, ../sass/_mobilescreen.scss */
+.footer .contacts .phone {
+  margin-bottom: 5%;
+}
+/* line 315, ../sass/_mobilescreen.scss */
+.footer .contacts .phone .phone-numbers {
+  overflow: hidden;
+}
+/* line 318, ../sass/_mobilescreen.scss */
+.footer .contacts .phone .phone-numbers p {
+  font: 400 0.8em "Century Gothic";
+  color: #FFFFFF;
+}
+/* line 323, ../sass/_mobilescreen.scss */
+.footer .contacts .phone .phone-numbers a {
+  display: block;
+  font: 400 0.8em "Century Gothic";
+  color: #FFFFFF;
+}
+/* line 334, ../sass/_mobilescreen.scss */
+.footer .contacts .subscribe p {
+  font: 400 0.8em "Century Gothic";
+  color: #FFFFFF;
+}
+/* line 339, ../sass/_mobilescreen.scss */
+.footer .contacts .subscribe a {
+  display: block;
+  font: 400 0.8em "Century Gothic";
+  color: #f6e300;
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+/* line 353, ../sass/_mobilescreen.scss */
+.footer .follow-us p {
+  font: 400 0.8em "Century Gothic";
+  color: #FFFFFF;
+  margin-bottom: 10%;
+}
+/* line 359, ../sass/_mobilescreen.scss */
+.footer .follow-us .email {
+  background: none;
+  border: none;
+  border-bottom: 0.2em solid #ffeb00;
+  padding: 2% 0;
+  margin-bottom: 10%;
+  font: 400 0.8em "Century Gothic";
+  color: #f9e602;
+}
+/* line 369, ../sass/_mobilescreen.scss */
+.footer .follow-us input:focus {
+  outline: none;
+}
+/* line 373, ../sass/_mobilescreen.scss */
+.footer .follow-us #mc-embedded-subscribe {
+  background: none;
+  border: 0.1em #f9e602;
+  font: 400 0.8em "Century Gothic";
+  color: #f9e602;
+  padding: 4% 0;
+  margin-left: 4%;
+}
+
+/* line 385, ../sass/_mobilescreen.scss */
+.bottom-menu {
+  background: #000000;
+  text-align: center;
+}
+/* line 390, ../sass/_mobilescreen.scss */
+.bottom-menu p {
+  color: #FFFFFF;
+  font: 400 0.8em "Century Gothic";
+  margin-bottom: 5%;
+  padding: 3% 5%;
+}
+/* line 397, ../sass/_mobilescreen.scss */
+.bottom-menu li {
+  display: inline-block;
+  margin: 0 6% 3% 0;
+}
+/* line 401, ../sass/_mobilescreen.scss */
+.bottom-menu li a {
+  color: #FFFFFF;
+  font: 400 1em "Source Code Pro";
+  text-transform: uppercase;
+}
+/* line 408, ../sass/_mobilescreen.scss */
+.bottom-menu li a:hover, .bottom-menu li a:visited {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  /* line 3, ../sass/_tabletscreen.scss */
+  .navigation {
+    padding: 4% 4% 0 0;
+    margin-bottom: 0;
+    background: #f6f6f6;
+    box-shadow: none;
+    border: none;
+  }
+  /* line 10, ../sass/_tabletscreen.scss */
+  .navigation .navigation-header {
+    margin-bottom: 15%;
+  }
+  /* line 13, ../sass/_tabletscreen.scss */
+  .navigation .navigation-header .navigation-button {
+    margin-top: 10%;
+    border: none;
+  }
+  /* line 18, ../sass/_tabletscreen.scss */
+  .navigation .navigation-header .navigation-button:focus, .navigation .navigation-header .navigation-button:hover {
+    margin-top: 10%;
+    border-radius: 0;
+    background: none;
+  }
+  /* line 24, ../sass/_tabletscreen.scss */
+  .navigation .navigation-header h1 {
+    display: inline-block;
+    margin: -25% 0 0 25%;
+  }
+  /* line 28, ../sass/_tabletscreen.scss */
+  .navigation .navigation-header h1 a {
+    padding: 5% 0 0;
+  }
+  /* line 34, ../sass/_tabletscreen.scss */
+  .navigation .navigation-collapse {
+    border: none;
+    margin-right: 0;
+  }
+  /* line 41, ../sass/_tabletscreen.scss */
+  .navigation .navigation-collapse .menu-item li {
+    margin: 0;
+  }
+  /* line 44, ../sass/_tabletscreen.scss */
+  .navigation .navigation-collapse .menu-item li a {
+    text-transform: uppercase;
+    font: 300 1.2em/2.2em 'Source Code Pro', monospace;
+    color: #000000;
+  }
+  /* line 52, ../sass/_tabletscreen.scss */
+  .navigation .navigation-collapse .menu-item li.opened-page a {
+    background: #ffeb00;
+    box-shadow: none;
+    color: #000000;
+  }
+
+  /* line 63, ../sass/_tabletscreen.scss */
+  .banner {
+    background: url("../img/slider-bg.jpg");
+    width: 100%;
+    padding: 4% 0 4% 7%;
+  }
+  /* line 68, ../sass/_tabletscreen.scss */
+  .banner h2 {
+    display: inline-block;
+    font: 400 1.6em/1.4em "Century Gothic";
+    text-transform: uppercase;
+    color: #ffea00;
+    background: #403f44;
+    padding: 2% 10% 2% 2%;
+    margin: 0;
+  }
+
+  /* line 79, ../sass/_tabletscreen.scss */
+  .contact-info {
+    background: #f6f6f6;
+  }
+  /* line 82, ../sass/_tabletscreen.scss */
+  .contact-info h4 {
+    display: inline-block;
+    color: #ffea00;
+    font: 400 1em "Century Gothic";
+    text-transform: uppercase;
+    background: #424147;
+    padding: 1% 4%;
+    margin-bottom: 4%;
+  }
+  /* line 92, ../sass/_tabletscreen.scss */
+  .contact-info #map {
+    height: 60vh;
+    background: #f6f6f6;
+    margin: 6% 0;
+  }
+  /* line 98, ../sass/_tabletscreen.scss */
+  .contact-info .contact-form {
+    margin-bottom: 5%;
+  }
+  /* line 102, ../sass/_tabletscreen.scss */
+  .contact-info .contact-form .field {
+    width: 100%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: none;
+    color: #424147;
+    font: 400 0.8em "Century Gothic";
+    padding: 1% 2%;
+  }
+  /* line 112, ../sass/_tabletscreen.scss */
+  .contact-info .contact-form .submit {
+    color: #ffffff;
+    font: 400 0.8em "Century Gothic";
+    background: #000000;
+    border: none;
+    border-radius: none;
+    border-bottom: 0.1em solid #f6e300;
+    padding: 1% 2%;
+  }
+  /* line 123, ../sass/_tabletscreen.scss */
+  .contact-info .contacts {
+    padding: 0 0 10% 0;
+  }
+  /* line 126, ../sass/_tabletscreen.scss */
+  .contact-info .contacts h4 {
+    margin-bottom: 12%;
+  }
+  /* line 131, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .fa-map-marker, .contact-info .contacts .fa-whatsapp, .contact-info .contacts .fa-envelope {
+    text-align: center;
+    font-size: 0.4em;
+    color: #FFFFFF;
+    background: #000000;
+    width: 14%;
+    padding: 2% 0;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin-right: 4%;
+    float: left;
+  }
+  /* line 144, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .fa-map-marker {
+    margin-right: 4%;
+  }
+  /* line 148, ../sass/_tabletscreen.scss */
+  .contact-info .contacts address {
+    font: 400 0.8em "Century Gothic";
+    color: #424147;
+    margin-bottom: 5%;
+  }
+  /* line 154, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .phone {
+    margin-bottom: 5%;
+  }
+  /* line 157, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .phone .phone-numbers {
+    overflow: hidden;
+  }
+  /* line 160, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .phone .phone-numbers p {
+    display: inline-block;
+    font: 400 0.8em "Century Gothic";
+    color: #424147;
+  }
+  /* line 166, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .phone .phone-numbers a {
+    display: block;
+    font: 400 0.8em "Century Gothic";
+    color: #424147;
+  }
+  /* line 174, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .subscribe {
+    text-align: left;
+  }
+  /* line 177, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .subscribe p {
+    display: block;
+    font: 400 0.8em "Century Gothic";
+    color: #424147;
+  }
+  /* line 183, ../sass/_tabletscreen.scss */
+  .contact-info .contacts .subscribe a {
+    display: inline-block;
+    font: 400 0.8em "Century Gothic";
+    color: #f6e300;
+    background: #403f46;
+    overflow: hidden;
+  }
+
+  /* line 194, ../sass/_tabletscreen.scss */
+  .footer {
+    background: #3f3f44;
+    padding: 5% 0 0;
+  }
+  /* line 199, ../sass/_tabletscreen.scss */
+  .footer h4 {
+    font: 400 1.2em "Century Gothic";
+    color: #FFFFFF;
+    padding-bottom: 0;
+    margin-bottom: 4%;
+  }
+  /* line 206, ../sass/_tabletscreen.scss */
+  .footer .about {
+    margin-bottom: 5%;
+    padding: 0;
+  }
+  /* line 210, ../sass/_tabletscreen.scss */
+  .footer .about p {
+    font: 400 0.7em/1.5em "Century Gothic";
+    color: #FFFFFF;
+    margin-bottom: 6%;
+  }
+  /* line 216, ../sass/_tabletscreen.scss */
+  .footer .about a {
+    display: inline-block;
+    font: 400 1.1em "Century Gothic";
+    color: #FFFFFF;
+    background: #000000;
+    padding: 4% 8%;
+    margin-bottom: 12%;
+    border-bottom: 0.2em solid #c3b515;
+  }
+  /* line 226, ../sass/_tabletscreen.scss */
+  .footer .about a:hover, .footer .about a:visited {
+    text-decoration: none;
+  }
+  /* line 230, ../sass/_tabletscreen.scss */
+  .footer .about img {
+    width: 30%;
+  }
+  /* line 235, ../sass/_tabletscreen.scss */
+  .footer .social-news {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  /* line 242, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .fa-twitter {
+    color: #FFFFFF;
+    font-size: 2em;
+    float: left;
+    margin-right: 5%;
+  }
+  /* line 249, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .news-preview {
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+  /* line 253, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .news-preview a {
+    font: 400 0.7em/1.3em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 257, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .news-preview a span {
+    color: #f9e602;
+  }
+  /* line 262, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .news-preview a:hover, .footer .social-news .latest-news li .news-preview a:visited {
+    text-decoration: none;
+  }
+  /* line 266, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news li .news-preview p {
+    margin-top: 5%;
+    font: 400 0.6em "Century Gothic";
+    color: #ffea00;
+  }
+  /* line 274, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news .social {
+    text-align: center;
+  }
+  /* line 277, ../sass/_tabletscreen.scss */
+  .footer .social-news .latest-news .social a {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    margin: 0 3% 3% 0;
+    background: #000000;
+    width: 16%;
+    padding: 3% 0;
+  }
+  /* line 291, ../sass/_tabletscreen.scss */
+  .footer .contacts {
+    padding: 0;
+  }
+  /* line 294, ../sass/_tabletscreen.scss */
+  .footer .contacts .fa-map-marker, .footer .contacts .fa-whatsapp, .footer .contacts .fa-envelope {
+    text-align: center;
+    font-size: 0.4em;
+    color: #FFFFFF;
+    background: #000000;
+    width: 16%;
+    padding: 3% 0;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin-right: 4%;
+    float: left;
+  }
+  /* line 307, ../sass/_tabletscreen.scss */
+  .footer .contacts .fa-map-marker {
+    margin-right: 4%;
+  }
+  /* line 311, ../sass/_tabletscreen.scss */
+  .footer .contacts address {
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 8%;
+  }
+  /* line 318, ../sass/_tabletscreen.scss */
+  .footer .contacts .phone {
+    margin-bottom: 5%;
+  }
+  /* line 322, ../sass/_tabletscreen.scss */
+  .footer .contacts .phone .phone-numbers {
+    overflow: hidden;
+  }
+  /* line 325, ../sass/_tabletscreen.scss */
+  .footer .contacts .phone .phone-numbers p {
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 330, ../sass/_tabletscreen.scss */
+  .footer .contacts .phone .phone-numbers a {
+    display: block;
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 338, ../sass/_tabletscreen.scss */
+  .footer .contacts a {
+    text-align: justify;
+  }
+  /* line 345, ../sass/_tabletscreen.scss */
+  .footer .subscribe p {
+    font: 400 0.7em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 350, ../sass/_tabletscreen.scss */
+  .footer .subscribe a {
+    display: block;
+    font: 400 1em "Century Gothic";
+    color: #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 5%;
+  }
+  /* line 361, ../sass/_tabletscreen.scss */
+  .footer .follow-us p {
+    font: 400 0.7em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 366, ../sass/_tabletscreen.scss */
+  .footer .follow-us #mc_embed_signup {
+    padding: 0;
+  }
+  /* line 369, ../sass/_tabletscreen.scss */
+  .footer .follow-us #mc_embed_signup .email {
+    float: left;
+    background: none;
+    border: none;
+    border-bottom: 0.2em solid #ffeb00;
+    margin-bottom: 10%;
+    font: 400 1.2em "Century Gothic";
+    color: #f9e602;
+  }
+  /* line 379, ../sass/_tabletscreen.scss */
+  .footer .follow-us #mc_embed_signup #mc-embedded-subscribe {
+    background: none;
+    border: 0.1em #f9e602;
+    font: 400 0.8em "Century Gothic";
+    color: #f9e602;
+    padding: 4% 0;
+    margin-left: 4%;
+  }
+  /* line 388, ../sass/_tabletscreen.scss */
+  .footer .follow-us #mc_embed_signup input:focus {
+    outline: none;
+  }
+}
+/* line 396, ../sass/_tabletscreen.scss */
+.bottom-menu {
+  background: #000000;
+  text-align: center;
+}
+/* line 401, ../sass/_tabletscreen.scss */
+.bottom-menu p {
+  color: #FFFFFF;
+  font: 400 0.8em "Century Gothic";
+  margin-bottom: 2%;
+  padding: 1% 5%;
+}
+/* line 408, ../sass/_tabletscreen.scss */
+.bottom-menu li {
+  display: inline-block;
+  margin: 0 6% 3% 0;
+}
+/* line 412, ../sass/_tabletscreen.scss */
+.bottom-menu li a {
+  color: #FFFFFF;
+  font: 400 1em "Source Code Pro";
+  text-transform: uppercase;
+}
+/* line 419, ../sass/_tabletscreen.scss */
+.bottom-menu li a:hover, .bottom-menu li a:visited {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  /* line 4, ../sass/_desktopscreen.scss */
+  .navigation {
+    max-height: 20%;
+    padding: 3% 5% 0;
+    margin-bottom: 0;
+    background: #f6f6f6;
+    box-shadow: none;
+    border: none;
+  }
+  /* line 12, ../sass/_desktopscreen.scss */
+  .navigation .navigation-header {
+    margin-bottom: 6%;
+  }
+  /* line 15, ../sass/_desktopscreen.scss */
+  .navigation .navigation-header .navigation-button {
+    margin-top: 5%;
+    border: none;
+  }
+  /* line 20, ../sass/_desktopscreen.scss */
+  .navigation .navigation-header .navigation-button:focus, .navigation .navigation-header .navigation-button:hover {
+    margin-top: 5%;
+    border-radius: 0;
+    background: none;
+  }
+  /* line 26, ../sass/_desktopscreen.scss */
+  .navigation .navigation-header h1 {
+    display: inline-block;
+    margin: -25% 0 0 15%;
+  }
+  /* line 30, ../sass/_desktopscreen.scss */
+  .navigation .navigation-header h1 a {
+    padding: 0;
+  }
+  /* line 36, ../sass/_desktopscreen.scss */
+  .navigation .navigation-collapse {
+    border: none;
+    margin-: 0;
+  }
+  /* line 43, ../sass/_desktopscreen.scss */
+  .navigation .navigation-collapse .menu-item li {
+    margin: 0 0 0 2em;
+  }
+  /* line 46, ../sass/_desktopscreen.scss */
+  .navigation .navigation-collapse .menu-item li a {
+    text-transform: uppercase;
+    font: 300 1em/1.8em "Source Code Pro";
+    color: #000000;
+  }
+  /* line 54, ../sass/_desktopscreen.scss */
+  .navigation .navigation-collapse .menu-item li.opened-page a {
+    background: #ffeb00;
+    box-shadow: none;
+    color: #000000;
+  }
+
+  /* line 65, ../sass/_desktopscreen.scss */
+  .banner {
+    background: url("../img/slider-bg.jpg");
+    width: 100%;
+    padding: 3% 0 3% 7%;
+  }
+  /* line 70, ../sass/_desktopscreen.scss */
+  .banner h2 {
+    display: inline-block;
+    font: 400 1.6em/1.4em "Century Gothic";
+    text-transform: uppercase;
+    color: #ffea00;
+    background: #403f44;
+    padding: 1% 10% 1% 1%;
+    margin: 0;
+  }
+
+  /* line 81, ../sass/_desktopscreen.scss */
+  .contact-info {
+    background: #f6f6f6;
+  }
+  /* line 84, ../sass/_desktopscreen.scss */
+  .contact-info h4 {
+    display: inline-block;
+    color: #ffea00;
+    font: 400 1.2rem "Century Gothic";
+    text-transform: uppercase;
+    background: #424147;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 4%;
+  }
+  /* line 94, ../sass/_desktopscreen.scss */
+  .contact-info #map {
+    height: 70vh;
+    background: #f6f6f6;
+    margin: 3% 0;
+  }
+  /* line 100, ../sass/_desktopscreen.scss */
+  .contact-info .contact-form {
+    margin-bottom: 5%;
+  }
+  /* line 103, ../sass/_desktopscreen.scss */
+  .contact-info .contact-form li {
+    padding: 0;
+  }
+  /* line 106, ../sass/_desktopscreen.scss */
+  .contact-info .contact-form li.email {
+    padding: 0 0.4rem;
+  }
+  /* line 110, ../sass/_desktopscreen.scss */
+  .contact-info .contact-form li .field {
+    width: 100%;
+    border: none;
+    border-radius: none;
+    color: #424147;
+    font: 400 0.8em "Century Gothic";
+    padding: 4% 2%;
+    margin-bottom: 3%;
+  }
+  /* line 122, ../sass/_desktopscreen.scss */
+  .contact-info .contact-form .submit {
+    color: #ffffff;
+    font: 400 0.8em "Century Gothic";
+    background: #000000;
+    border: none;
+    border-radius: none;
+    border-bottom: 0.1em solid #f6e300;
+    padding: 1% 2%;
+  }
+  /* line 133, ../sass/_desktopscreen.scss */
+  .contact-info .contacts {
+    padding: 0 0 10% 0;
+  }
+  /* line 136, ../sass/_desktopscreen.scss */
+  .contact-info .contacts h4 {
+    margin-bottom: 8%;
+  }
+  /* line 141, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .fa-map-marker, .contact-info .contacts .fa-whatsapp, .contact-info .contacts .fa-envelope {
+    text-align: center;
+    font-size: 0.4em;
+    color: #FFFFFF;
+    background: #000000;
+    width: 8%;
+    padding: 2% 0;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin-right: 4%;
+    float: left;
+  }
+  /* line 154, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .fa-map-marker {
+    margin-right: 4%;
+  }
+  /* line 158, ../sass/_desktopscreen.scss */
+  .contact-info .contacts address {
+    font: 400 1em "Century Gothic";
+    color: #424147;
+    margin-bottom: 10%;
+  }
+  /* line 164, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .phone {
+    margin-bottom: 5%;
+  }
+  /* line 167, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .phone .phone-numbers {
+    overflow: hidden;
+  }
+  /* line 170, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .phone .phone-numbers p {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #424147;
+  }
+  /* line 176, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .phone .phone-numbers a {
+    display: block;
+    font: 400 1em "Century Gothic";
+    color: #424147;
+  }
+  /* line 184, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .subscribe {
+    text-align: left;
+  }
+  /* line 187, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .subscribe p {
+    display: block;
+    font: 400 1em "Century Gothic";
+    color: #424147;
+  }
+  /* line 193, ../sass/_desktopscreen.scss */
+  .contact-info .contacts .subscribe a {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #f6e300;
+    background: #403f46;
+    overflow: hidden;
+  }
+
+  /* line 205, ../sass/_desktopscreen.scss */
+  .footer {
+    background: #3f3f44;
+    padding: 2% 0 0;
+  }
+  /* line 209, ../sass/_desktopscreen.scss */
+  .footer h4 {
+    font: 400 1.6em "Century Gothic";
+    color: #FFFFFF;
+    padding-bottom: 1%;
+  }
+  /* line 215, ../sass/_desktopscreen.scss */
+  .footer .about {
+    margin-bottom: 5%;
+  }
+  /* line 217, ../sass/_desktopscreen.scss */
+  .footer .about p {
+    font: 400 0.8em/1.5em "Century Gothic";
+    color: #FFFFFF;
+    margin-bottom: 6%;
+  }
+  /* line 223, ../sass/_desktopscreen.scss */
+  .footer .about a {
+    display: inline-block;
+    font: 400 1.1em "Century Gothic";
+    color: #FFFFFF;
+    background: #000000;
+    padding: 4% 8%;
+    margin-bottom: 16%;
+    border-bottom: 0.2em solid #c3b515;
+  }
+  /* line 233, ../sass/_desktopscreen.scss */
+  .footer .about a:hover, .footer .about a:visited {
+    text-decoration: none;
+  }
+  /* line 237, ../sass/_desktopscreen.scss */
+  .footer .about img {
+    width: 30%;
+  }
+  /* line 247, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .fa-twitter {
+    color: #FFFFFF;
+    font-size: 2em;
+    float: left;
+    margin-right: 5%;
+  }
+  /* line 254, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .news-preview {
+    margin-bottom: 5%;
+    overflow: hidden;
+  }
+  /* line 258, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .news-preview a {
+    font: 400 0.8em/1.3em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 262, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .news-preview a span {
+    color: #f9e602;
+  }
+  /* line 267, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .news-preview a:hover, .footer .social-news .latest-news li .news-preview a:visited {
+    text-decoration: none;
+  }
+  /* line 271, ../sass/_desktopscreen.scss */
+  .footer .social-news .latest-news li .news-preview p {
+    margin-top: 5%;
+    font: 400 0.6em "Century Gothic";
+    color: #ffea00;
+  }
+  /* line 283, ../sass/_desktopscreen.scss */
+  .footer .social-news .social a {
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin: 0 1% 2% 0;
+    background: #000000;
+    width: 8%;
+    padding: 2% 0;
+  }
+  /* line 296, ../sass/_desktopscreen.scss */
+  .footer .contacts {
+    margin-bottom: 4%;
+  }
+  /* line 300, ../sass/_desktopscreen.scss */
+  .footer .contacts .fa-map-marker, .footer .contacts .fa-whatsapp, .footer .contacts .fa-envelope {
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 3% 0;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    margin-right: 4%;
+    float: left;
+    width: 12%;
+  }
+  /* line 312, ../sass/_desktopscreen.scss */
+  .footer .contacts .fa-map-marker {
+    margin-right: 4%;
+  }
+  /* line 316, ../sass/_desktopscreen.scss */
+  .footer .contacts address {
+    font: 400 1em "Century Gothic";
+    color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 5%;
+  }
+  /* line 323, ../sass/_desktopscreen.scss */
+  .footer .contacts .phone {
+    margin-bottom: 5%;
+  }
+  /* line 327, ../sass/_desktopscreen.scss */
+  .footer .contacts .phone .phone-numbers {
+    overflow: hidden;
+  }
+  /* line 330, ../sass/_desktopscreen.scss */
+  .footer .contacts .phone .phone-numbers p {
+    font: 400 1em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 335, ../sass/_desktopscreen.scss */
+  .footer .contacts .phone .phone-numbers a {
+    display: block;
+    font: 400 1em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 346, ../sass/_desktopscreen.scss */
+  .footer .subscribe p {
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 351, ../sass/_desktopscreen.scss */
+  .footer .subscribe a {
+    display: block;
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 5%;
+  }
+  /* line 362, ../sass/_desktopscreen.scss */
+  .footer .follow-us p {
+    font: 400 0.8em "Century Gothic";
+    color: #FFFFFF;
+  }
+  /* line 367, ../sass/_desktopscreen.scss */
+  .footer .follow-us #mc_embed_signup {
+    padding: 0;
+    width: 100%;
+  }
+  /* line 371, ../sass/_desktopscreen.scss */
+  .footer .follow-us #mc_embed_signup .email {
+    float: left;
+    background: none;
+    border: none;
+    border-bottom: 0.2em solid #ffeb00;
+    margin-bottom: 10%;
+    font: 400 1.2em "Century Gothic";
+    color: #f9e602;
+  }
+  /* line 381, ../sass/_desktopscreen.scss */
+  .footer .follow-us #mc_embed_signup #mc-embedded-subscribe {
+    background: none;
+    border: 0.1em #f9e602;
+    font: 400 1em "Century Gothic";
+    color: #f9e602;
+    padding: 4% 0;
+    margin-left: 4%;
+  }
+  /* line 390, ../sass/_desktopscreen.scss */
+  .footer .follow-us #mc_embed_signup input:focus {
+    outline: none;
+  }
+
+  /* line 397, ../sass/_desktopscreen.scss */
+  .bottom-menu {
+    background: #000000;
+    text-align: center;
+    padding-top: 2%;
+  }
+  /* line 402, ../sass/_desktopscreen.scss */
+  .bottom-menu p {
+    display: inline-block;
+    float: left;
+    color: #FFFFFF;
+    font: 400 1em "Century Gothic";
+    padding: 0;
+    margin: 0;
+  }
+  /* line 411, ../sass/_desktopscreen.scss */
+  .bottom-menu li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  /* line 416, ../sass/_desktopscreen.scss */
+  .bottom-menu li a {
+    color: #FFFFFF;
+    font: 400 1.2em 'Source Code Pro', monospace;
+    text-transform: uppercase;
+  }
+  /* line 423, ../sass/_desktopscreen.scss */
+  .bottom-menu li a:hover, .bottom-menu li a:visited {
+    text-decoration: none;
+  }
+}
+/* line 2, ../sass/_aboutusmobilescreen.scss */
+.welcome-to-our-team {
+  padding-bottom: 4%;
+  background: #f6f6f6;
+}
+/* line 6, ../sass/_aboutusmobilescreen.scss */
+.welcome-to-our-team img {
+  width: 100%;
+}
+/* line 10, ../sass/_aboutusmobilescreen.scss */
+.welcome-to-our-team h4 {
+  font: 400 1.4em "Century Gothic";
+  color: #424146;
+  text-transform: uppercase;
+  margin: 5% 0;
+  padding: 0 3%;
+}
+/* line 18, ../sass/_aboutusmobilescreen.scss */
+.welcome-to-our-team p {
+  font: 400 0.8em/1.6em "Century Gothic";
+  color: #424146;
+  padding: 0 3%;
+}
+
+/* line 25, ../sass/_aboutusmobilescreen.scss */
+.our-skills {
+  text-align: center;
+  padding-bottom: 5%;
+  background: #f6f6f6;
+}
+/* line 30, ../sass/_aboutusmobilescreen.scss */
+.our-skills h4 {
+  display: inline-block;
+  font: 400 1em "Century Gothic";
+  color: #ffea00;
+  text-transform: uppercase;
+  background: #403f46;
+  padding: 2% 5%;
+  margin-bottom: 5%;
+}
+/* line 40, ../sass/_aboutusmobilescreen.scss */
+.our-skills p {
+  font: 400 0.8em/1.6em "Century Gothic";
+  color: #424146;
+  padding: 0 3%;
+  margin-bottom: 5%;
+}
+/* line 47, ../sass/_aboutusmobilescreen.scss */
+.our-skills .progress {
+  height: 35px;
+}
+/* line 51, ../sass/_aboutusmobilescreen.scss */
+.our-skills .progress .skill {
+  font: 400 1em "Source Code Pro";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+/* line 59, ../sass/_aboutusmobilescreen.scss */
+.our-skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+/* line 68, ../sass/_aboutusmobilescreen.scss */
+.our-skills .progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+/* line 73, ../sass/_aboutusmobilescreen.scss */
+.our-skills .percent {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  font: 400 1em "Source Code Pro";
+  color: #ffeb00;
+  background: #000000;
+  width: 14%;
+  padding: 0.5em 0;
+  margin-right: 1%;
+}
+/* line 87, ../sass/_aboutusmobilescreen.scss */
+.our-skills .skill-bar {
+  background: #403f46;
+  border: none;
+  border-radius: 0;
+}
+/* line 94, ../sass/_aboutusmobilescreen.scss */
+.our-skills .progress-bar-success {
+  background: #ffeb00;
+}
+
+/* line 99, ../sass/_aboutusmobilescreen.scss */
+.our-team {
+  text-align: center;
+  background: #f6f6f6;
+}
+/* line 103, ../sass/_aboutusmobilescreen.scss */
+.our-team h4 {
+  display: inline-block;
+  font: 400 1em "Century Gothic";
+  color: #ffea00;
+  text-transform: uppercase;
+  background: #403f46;
+  padding: 2% 5%;
+  margin-bottom: 5%;
+}
+/* line 113, ../sass/_aboutusmobilescreen.scss */
+.our-team p {
+  font: 400 0.8em/1.6em "Century Gothic";
+  color: #424146;
+  padding: 0 3%;
+  margin-bottom: 5%;
+}
+/* line 120, ../sass/_aboutusmobilescreen.scss */
+.our-team .team-member {
+  padding: 8%;
+}
+/* line 123, ../sass/_aboutusmobilescreen.scss */
+.our-team .team-member img {
+  border: 0.3em solid #ffeb00;
+}
+/* line 127, ../sass/_aboutusmobilescreen.scss */
+.our-team .team-member p {
+  display: inline-block;
+  font: 400 0.8em "Century Gothic";
+  color: #ffea00;
+  text-transform: uppercase;
+  background: #403f46;
+  padding: 2% 10%;
+  margin: 4% 0 0;
+}
+/* line 137, ../sass/_aboutusmobilescreen.scss */
+.our-team .team-member a {
+  display: block;
+  margin: 2% 25%;
+  font: 400 0.8em "Century Gothic";
+  color: #ffea00;
+  text-transform: uppercase;
+  background: #000000;
+  padding: 2% 10%;
+}
+/* line 146, ../sass/_aboutusmobilescreen.scss */
+.our-team .team-member a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  /* line 3, ../sass/_aboutustabletscreen.scss */
+  .welcome-to-our-team {
+    padding-bottom: 8%;
+    background: #f6f6f6;
+  }
+  /* line 7, ../sass/_aboutustabletscreen.scss */
+  .welcome-to-our-team img {
+    width: 30%;
+    padding-top: 4%;
+  }
+  /* line 12, ../sass/_aboutustabletscreen.scss */
+  .welcome-to-our-team h4 {
+    font: 400 1.4em "Century Gothic";
+    color: #424146;
+    text-transform: uppercase;
+    margin: 5% 0;
+    padding: 0 3%;
+  }
+  /* line 20, ../sass/_aboutustabletscreen.scss */
+  .welcome-to-our-team p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+  }
+  /* line 25, ../sass/_aboutustabletscreen.scss */
+  .welcome-to-our-team p.heading {
+    margin-bottom: 5%;
+  }
+
+  /* line 31, ../sass/_aboutustabletscreen.scss */
+  .our-skills {
+    text-align: center;
+    padding-bottom: 8%;
+    background: #f6f6f6;
+  }
+  /* line 36, ../sass/_aboutustabletscreen.scss */
+  .our-skills h4 {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 1% 5%;
+    margin-bottom: 3%;
+  }
+  /* line 46, ../sass/_aboutustabletscreen.scss */
+  .our-skills p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+    margin-bottom: 0;
+  }
+  /* line 53, ../sass/_aboutustabletscreen.scss */
+  .our-skills .progress {
+    height: 35px;
+  }
+  /* line 57, ../sass/_aboutustabletscreen.scss */
+  .our-skills .progress .skill {
+    font: 400 1em "Source Code Pro";
+    line-height: 35px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  /* line 65, ../sass/_aboutustabletscreen.scss */
+  .our-skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+  }
+  /* line 74, ../sass/_aboutustabletscreen.scss */
+  .our-skills .progress-bar {
+    text-align: left;
+    transition-duration: 3s;
+  }
+  /* line 79, ../sass/_aboutustabletscreen.scss */
+  .our-skills .percent {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font: 400 1em "Source Code Pro";
+    color: #ffeb00;
+    background: #000000;
+    width: 14%;
+    padding: 0.48em 0;
+    margin-right: 1%;
+  }
+  /* line 93, ../sass/_aboutustabletscreen.scss */
+  .our-skills .skill-bar {
+    background: #403f46;
+    border: none;
+    border-radius: 0;
+  }
+  /* line 100, ../sass/_aboutustabletscreen.scss */
+  .our-skills .progress-bar-success {
+    background: #ffeb00;
+  }
+
+  /* line 105, ../sass/_aboutustabletscreen.scss */
+  .our-team {
+    text-align: center;
+    background: #f6f6f6;
+  }
+  /* line 109, ../sass/_aboutustabletscreen.scss */
+  .our-team h4 {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 1% 5%;
+    margin-bottom: 3%;
+  }
+  /* line 119, ../sass/_aboutustabletscreen.scss */
+  .our-team p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+    margin-bottom: 5%;
+  }
+  /* line 126, ../sass/_aboutustabletscreen.scss */
+  .our-team .team-member {
+    padding: 8%;
+  }
+  /* line 129, ../sass/_aboutustabletscreen.scss */
+  .our-team .team-member img {
+    border: 0.3em solid #ffeb00;
+  }
+  /* line 133, ../sass/_aboutustabletscreen.scss */
+  .our-team .team-member p {
+    display: inline-block;
+    font: 400 0.8em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 2% 10%;
+    margin: 4% 0 0;
+  }
+  /* line 143, ../sass/_aboutustabletscreen.scss */
+  .our-team .team-member a {
+    display: block;
+    margin: 2% 25%;
+    font: 400 0.8em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #000000;
+    padding: 2% 10%;
+  }
+  /* line 152, ../sass/_aboutustabletscreen.scss */
+  .our-team .team-member a:hover {
+    text-decoration: none;
+  }
+}
+@media (min-width: 992px) {
+  /* line 3, ../sass/_aboutusdesktopscreen.scss */
+  .welcome-to-our-team {
+    padding-bottom: 4%;
+    background: #f6f6f6;
+  }
+  /* line 7, ../sass/_aboutusdesktopscreen.scss */
+  .welcome-to-our-team img {
+    width: 33%;
+    padding: 3% 0 0;
+  }
+  /* line 12, ../sass/_aboutusdesktopscreen.scss */
+  .welcome-to-our-team h4 {
+    font: 400 1.4em "Century Gothic";
+    color: #424146;
+    text-transform: uppercase;
+    margin: 5% 0;
+    padding: 0 3%;
+  }
+  /* line 20, ../sass/_aboutusdesktopscreen.scss */
+  .welcome-to-our-team p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+  }
+  /* line 25, ../sass/_aboutusdesktopscreen.scss */
+  .welcome-to-our-team p.heading {
+    margin-bottom: 5%;
+  }
+
+  /* line 31, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills {
+    text-align: center;
+    padding-bottom: 4%;
+    background: #f6f6f6;
+  }
+  /* line 36, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills h4 {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 1% 5%;
+    margin-bottom: 3%;
+  }
+  /* line 46, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+    margin-bottom: 2%;
+  }
+  /* line 53, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .progress {
+    height: 35px;
+  }
+  /* line 57, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .progress .skill {
+    font: 400 1em "Source Code Pro";
+    line-height: 35px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  /* line 65, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+  }
+  /* line 74, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .progress-bar {
+    text-align: left;
+    transition-duration: 3s;
+  }
+  /* line 79, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .percent {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font: 400 1em "Source Code Pro";
+    color: #ffeb00;
+    background: #000000;
+    width: 14%;
+    padding: 0.46em 0;
+    margin-right: 1%;
+  }
+  /* line 93, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .skill-bar {
+    background: #403f46;
+    border: none;
+    border-radius: 0;
+  }
+  /* line 100, ../sass/_aboutusdesktopscreen.scss */
+  .our-skills .progress-bar-success {
+    background: #ffeb00;
+  }
+
+  /* line 105, ../sass/_aboutusdesktopscreen.scss */
+  .our-team {
+    text-align: center;
+    background: #f6f6f6;
+  }
+  /* line 109, ../sass/_aboutusdesktopscreen.scss */
+  .our-team h4 {
+    display: inline-block;
+    font: 400 1em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 1% 5%;
+    margin-bottom: 3%;
+  }
+  /* line 119, ../sass/_aboutusdesktopscreen.scss */
+  .our-team p {
+    font: 400 0.8em/1.6em "Century Gothic";
+    color: #424146;
+    padding: 0 3%;
+    margin-bottom: 2%;
+  }
+  /* line 126, ../sass/_aboutusdesktopscreen.scss */
+  .our-team .team-member {
+    padding: 2%;
+  }
+  /* line 129, ../sass/_aboutusdesktopscreen.scss */
+  .our-team .team-member img {
+    border: 0.3em solid #ffeb00;
+  }
+  /* line 133, ../sass/_aboutusdesktopscreen.scss */
+  .our-team .team-member p {
+    display: inline-block;
+    font: 400 0.8em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #403f46;
+    padding: 2% 10%;
+    margin: 4% 0 0;
+  }
+  /* line 143, ../sass/_aboutusdesktopscreen.scss */
+  .our-team .team-member a {
+    display: block;
+    margin: 2% 25%;
+    font: 400 0.8em "Century Gothic";
+    color: #ffea00;
+    text-transform: uppercase;
+    background: #000000;
+    padding: 2% 10%;
+  }
+  /* line 152, ../sass/_aboutusdesktopscreen.scss */
+  .our-team .team-member a:hover {
+    text-decoration: none;
+  }
+}
+@font-face {
+  font-family: "Century Gothic";
+  src: url(../fonts/CenturyGothic/CenturyGothic.eot);
+  src: url(../fonts/CenturyGothic/CenturyGothic.ttf);
+  src: url(../fonts/CenturyGothic/CenturyGothic.woff);
+}
+@font-face {
+  font-family: "Source Code Pro";
+  src: url(../fonts/SourceCodePro/SourceCodePro-Light.otf);
+  src: url(../fonts/SourceCodePro/SourceCodePro-Light.ttf);
+}

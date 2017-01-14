@@ -1,0 +1,413 @@
+.navigation {
+    min-height: 20%;
+    padding-top: 10%;
+    margin-bottom: 0;
+    text-align: center;
+    background: #f6f6f6;
+    box-shadow: none;
+    border: none;
+
+    .navigation-header {
+        margin-bottom: 18%;
+
+        .navigation-button {
+            margin-top: 5%;
+            border: none;
+
+            &:focus, &:hover {
+                margin-top: 5%;
+                border-radius: 0;
+                background: none;
+            }
+        }
+
+        h1 {
+            display: inline-block;
+            margin: -40% 0 0 15%;
+
+            a {
+                padding: 15% 0 0;
+            }
+        }
+    }        
+}  
+
+.navigation-collapse {
+    border: none;
+
+    .menu-item {
+
+        li {
+            margin: 0 15% 5%;
+
+            a {
+                text-transform: uppercase; 
+                font: 300 1.2em/2.3em 'Source Code Pro', monospace;
+                color: #000000;
+            }
+
+            &.opened-page {
+                a {
+                    background: #ffeb00;
+                    box-shadow: none;
+                    color: #000000; 
+                } 
+            }
+        }
+    }
+}
+
+.banner {
+    background: url("../img/slider-bg.jpg");
+    width: 100%;
+    padding: 6% 0 6% 7%;
+
+    h2 {
+        display: inline-block;
+        font: 400 1.8em/1.4em "Century Gothic";
+        text-transform: uppercase;
+        color: #ffea00;
+        background: #403f44;
+        padding: 2% 10% 2% 2%;
+        margin: 0;
+    }
+}
+
+.contact-info {
+    background: #f6f6f6;
+
+    h4 {
+        display: inline-block;
+        color: #ffea00;
+        font: 400 1em "Century Gothic";
+        text-transform: uppercase;
+        background: #424147;
+        padding: 1% 4%;
+        margin-bottom: 4%;
+    }
+
+    #map {
+        height: 80vh;
+        background: #f6f6f6;
+        margin: 10% 0;
+    }
+
+    .contact-form {
+        margin-bottom: 20%;
+
+        li {
+            padding: 0;
+
+            .field {
+                width: 100%;
+                margin-bottom: 5%;
+                border: none;
+                border-radius: none;
+                color: #424147;
+                font: 400 0.8em "Century Gothic";
+                padding: 1% 2%;
+            }
+        }
+
+
+        .submit {
+            color: #ffffff;
+            font: 400 0.8em "Century Gothic";
+            background: #000000;
+            border: none;
+            border-radius: none;
+            border-bottom: 0.1em solid #f6e300;
+            padding: 1% 2%;
+        }
+    }
+
+    .contacts {
+        padding-bottom: 10%;
+
+        .fa-map-marker, .fa-whatsapp, .fa-envelope {
+            text-align: center;
+            font-size: 0.4em;
+            color: #FFFFFF;
+            background: #000000;
+            width: 12%;
+            padding: 2% 0;
+            color: #FFFFFF;
+            font-size: 1.4em;   
+            margin-right: 4%;
+            float: left;
+        }
+
+        .fa-map-marker {
+            margin-right: 4%;
+        }
+
+        address {
+            font: 400 0.8em "Century Gothic";
+            color: #424147;
+            margin-bottom: 5%;
+        }
+
+        .phone {
+            margin-bottom: 5%;
+
+            .phone-numbers {
+                overflow: hidden;
+
+                p {
+                    display: inline-block;
+                    font: 400 0.8em "Century Gothic";
+                    color: #424147;
+                }
+
+                a {
+                    display: block;
+                    font: 400 0.8em "Century Gothic";
+                    color: #424147; 
+                }
+            }    
+        } 
+
+        .subscribe {
+            text-align: left;
+
+            p {
+                display: block;
+                font: 400 0.8em "Century Gothic";
+                color: #424147;
+            }
+
+            a {
+                display: inline-block;
+                font: 400 0.8em "Century Gothic";
+                color: #f6e300;
+                background: #403f46;
+                overflow: hidden;
+            }
+        }   
+    }
+} 
+
+
+.footer {
+    background: #3f3f44;
+    padding: 5% 4% 0;
+
+    h4 {
+        font: 400 1.4em "Century Gothic";
+        color: #FFFFFF;
+        margin-bottom: 7%;
+    }
+
+    .about {
+        margin-bottom: 5%;
+        p {
+            font: 400 0.8em/1.5em "Century Gothic"; 
+            color: #FFFFFF; 
+            margin-bottom: 6%;
+        }
+
+        a {
+            display: inline-block;
+            font: 400 1em "Century Gothic"; 
+            color: #FFFFFF; 
+            background: #000000;
+            padding: 4% 8%;          
+            margin-bottom: 5%;
+            border-bottom: 0.2em solid #c3b515;
+        }
+
+        a:hover, a:visited {
+            text-decoration: none;
+        }
+
+        img {
+            width: 30%;
+        }
+    }
+
+    .social-news {
+        margin-bottom: 7%;
+
+        .latest-news {
+
+            li {
+                .fa-twitter {
+                    color: #FFFFFF;
+                    font-size: 2em;
+                    float: left;
+                    margin-right: 5%;
+                }
+
+                .news-preview {
+                    margin-bottom: 5%;
+                    overflow: hidden;
+
+                    a {
+                        font: 400 0.8em/1.3em "Century Gothic";
+                        color: #FFFFFF;
+
+                        span {
+                            color: #f9e602;
+                        }
+                    }
+
+                    a:hover, a:visited {
+                        text-decoration: none;
+                    }
+
+                     p {
+                        margin-top: 5%;
+                        font: 400 0.6em "Century Gothic";
+                        color: #ffea00;
+                    }
+                }
+            }
+        }       
+         
+        .social {
+            margin-bottom: 7%;
+
+            a {
+                display: inline-block;
+                text-align: center;
+                font-size: 1em;
+                color: #FFFFFF;
+                margin: 3% 3% 0;
+                background: #000000;
+                width: 16%;
+                padding: 4% 0;
+            } 
+        }
+    }
+    
+
+    .contacts {
+        margin-bottom: 7%;
+
+        .fa-map-marker, .fa-whatsapp, .fa-envelope {
+            text-align: center;
+            font-size: 0.4em;
+            color: #FFFFFF;
+            background: #000000;
+            width: 16%;
+            padding: 3% 0;
+            color: #FFFFFF;
+            font-size: 1.4em;   
+            margin-right: 4%;
+            float: left;
+        }
+
+        .fa-map-marker {
+            margin-right: 4%;
+        }
+
+        address {
+            font: 400 0.8em "Century Gothic";
+            color: #FFFFFF;
+            overflow: hidden;
+            margin-bottom: 10%;
+        }
+
+        .phone {
+
+            margin-bottom: 5%;
+
+            .phone-numbers {
+                overflow: hidden;
+
+                p {
+                    font: 400 0.8em "Century Gothic";
+                    color: #FFFFFF;
+                }
+
+                a {
+                    display: block;
+                    font: 400 0.8em "Century Gothic";
+                    color: #FFFFFF;  
+                }
+            }    
+        }    
+
+
+        .subscribe {
+
+            p {
+                font: 400 0.8em "Century Gothic";
+                color: #FFFFFF;
+            }
+
+            a {
+                display: block;
+                font: 400 0.8em "Century Gothic";
+                color: #f6e300;  
+                overflow: hidden;
+                padding-bottom: 5%;
+            }
+        } 
+    }    
+
+
+
+    .follow-us {
+
+        p {
+            font: 400 0.8em "Century Gothic";
+            color: #FFFFFF; 
+            margin-bottom: 10%;
+        }
+
+        .email {
+            background: none;
+            border: none;
+            border-bottom: 0.2em solid #ffeb00;
+            padding: 2% 0;
+            margin-bottom: 10%;
+            font: 400 0.8em "Century Gothic";
+            color: #f9e602;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        #mc-embedded-subscribe {
+            background: none;
+            border: 0.1em #f9e602;
+            font: 400 0.8em "Century Gothic";
+            color: #f9e602;
+            padding: 4% 0;
+            margin-left: 4%;
+        }
+    } 
+}
+   
+
+.bottom-menu {
+    background: #000000;
+    text-align: center;
+
+
+    p {
+        color: #FFFFFF;
+        font: 400 0.8em "Century Gothic";
+        margin-bottom: 5%;
+        padding: 3% 5%;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 6% 3% 0;
+
+        a {
+
+            color: #FFFFFF;
+            font: 400 1em "Source Code Pro";
+            text-transform: uppercase;
+        }
+
+        a:hover, a:visited {
+            text-decoration: none;
+        }
+    }
+}
+
